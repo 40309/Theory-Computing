@@ -1,0 +1,84 @@
+#Boolean Algebra Homework
+
+You should refer to the **homework policy** for details on how this homework should be submitted.
+
+**Attempt all questions and show all working.**
+
+**This homework may not appear correctly in Dillinger due to the boolean expressions used. However, it will work correctly in both StackEdit and Haroopad (with the Maths preferences turned on)**
+
+##Question 1
+Look at the truth table below:
+
+|Input A|Input B|Output Q|
+|:-----:|:-----:|:------:|
+|1|0|1|
+|1|1|0|
+|0|1|1|
+|0|0|0|
+
+Which logic gate does the table represent?
+
+(**1 mark**)
+
+##Question 2
+Look at the logic circuit below:
+
+![](https://www.dropbox.com/s/zr6h9ez8cqlyi3l/question2.jpg?dl=1)
+
+Complete the truth table below for the logic circuit above.  Write the correct value of the output R for each of the listed sets of inputs. Two additional columns (A.B and NOT C) have been included in the truth table to help you work out the correct values.
+
+|Input A|Input B|Input C|A.B|NOT C|Q|
+|:-----:|:-----:|:-----:|:-:|:---:|:-:|
+|1|0|0| | | |
+|1|1|0| | | |
+|1|0|1| | | |
+|1|1|1| | | |
+|0|1|0| | | |
+|0|0|1| | | |
+|0|1|1| | | |
+|0|0|0| | | |
+
+(**3 marks**)
+
+##Question 3
+A refrigerator is fitted with a compressor motor to cool the food compartments and a light. The light is controlled by a switch on the door (input A) and the motor is controlled by the switch on the door and a sensor (input B) that detects the temperature inside the refrigerator.
+
+- The door switch (input A) is on when the door is closed and off when the door is open.
+- Temperature sensor B (input B) is on when the temperature is above 5°C.
+
+The light (output L) is:
+
+- on when the door is open;
+- off when the door is closed.
+
+The motor (output M) is:
+
+- off when the door is open;
+- on when the door is closed and the temperature is above 5°C.
+
+Using only AND, OR and NOT gates draw a logic circuit for this system.  **You may not need to use all three types of gate.**
+
+![](https://www.dropbox.com/s/vgwktuwlzgxnkgh/question3.jpg?dl=1)
+
+*Space for your answer diagram*
+
+(**3 marks**)
+
+##Question 4
+
+1. Draw a logic diagram for the Boolean expression $A\ .\ (\overline{A}+B)$ using the the symbols for **and**, **or** and **not** gates. (**3 marks**)
+2. Simplify the expression using the laws and theorems of Boolean algebra. **Show all working**. (**3 marks**)
+3. Draw a logic diagram for the simplified expression. (**1 mark**)
+4. Based on part 1 and part 3 explain why simplifying Boolean expressions is useful when designing circuits. (**1 mark**)
+
+##Question 5
+Write the following Boolean expressions in their simplest forms (**show all working**).
+
+1. $B\ +\ B\ .\ \overline{C}$ (**1 mark**)
+2. $A\ .\ B\ +\ A\ .\ \overline{B}$ (**1 mark**)
+3. $A\ .\ (B\ +\ 1)$ (**1 mark**)
+
+**Total 18 marks**
+
+
+
